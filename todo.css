@@ -1,0 +1,62 @@
+.done{
+    text-decoration: line-through;
+  }
+ 
+  .heading{
+      font-size: x-large;
+      font-weight: bold;
+      display: inline;
+  }
+
+.listrow{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    margin: 0;
+}
+
+ul li:nth-child(odd) {
+    background: #deeaee;
+  }
+
+  ul li:nth-child(even) {
+    background: #b7d7e8;
+  }  
+
+ .plusicon {
+     display: inline !important;
+     cursor: pointer;
+     margin-left: 5%;
+ } 
+
+ .addborder{
+     border-color: green;
+     border-style: solid;
+     border-width: thick;
+ }
+
+ .trashicon{
+     display: none;
+     background-color: red;
+     color: white;
+     margin-right: 5%;
+     cursor: pointer;
+     margin-top: 0;
+     margin-left: 0;
+     margin-bottom: 0;
+ }
